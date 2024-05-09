@@ -2,18 +2,16 @@
 
 ## Project Description
 
-This project aims to classify the text of news articles from the CNN Indonesia website into appropriate categories using web scraping techniques to collect article data, the collected data will be preprocessed to get keywords on each article. After getting the keywords, the TF-IDF (Term Frequency-Inverse Document Frequency) method will be applied to extract features from the text. Finally classification with 3 machine learning models, k-Nearest Neighbors (kNN), Naive Bayes, and Support Vector Machine (SVM) and compare the results to get the appropriate model.
+This project aims to classify images into three categories: scissors, stone, or paper. The images will be processed and fed into an image recognition model using TensorFlow, a popular machine learning framework. The model will be trained using a dataset of images that have been labeled for each category. The model will learn to extract features from the images and make predictions about which category each image corresponds to.
 
 ## Objective
-- Develop an automatic classification system to categorize news articles into appropriate categories based on their text content.
-- Combining web scraping, text processing, and machine learning technologies for automatic text analysis.
+- Developed an automatic image classification system to identify images of scissors, stone, or paper.
+- Using TensorFlow and neural network models to build an efficient and accurate image classification model.
+- Explore different neural network architectures and hyperparameters to optimize the performance of the image classification model.
 
 ## Tools
-- beautifulsoup4
-- requests
-- pandas
+- Google Colaboratory
+- Tensorflow
 - matplotlib
-- seaborn
-- sastrawi
-- nltk
-- scikit-learn
+- Numpy
+- Ziplife
